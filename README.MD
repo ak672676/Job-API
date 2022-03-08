@@ -1,6 +1,6 @@
 # Job API
 
-Javascript API for Job with JWT implementation
+Javascript API for Job with JWT, filteration, sorting, searchinf and pagination implementation
 
 ## Setup
 

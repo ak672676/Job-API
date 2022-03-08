@@ -12,6 +12,14 @@ const JobSchema = new mongoose.Schema(
       required: [true, "Position is required"],
       maxLength: 100,
     },
+    ctc: {
+      type: Number,
+    },
+    experienceInMonths: {
+      type: Number,
+      required: [true, "Experience is required"],
+      default: 0,
+    },
     description: {
       type: String,
       maxLength: 500,
